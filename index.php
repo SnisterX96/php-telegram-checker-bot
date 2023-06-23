@@ -18,7 +18,7 @@ Note -⟩ We Only Accept Upi And Crytpo</b>");
 
 $nopre = urlencode("<b>YOU NEED TO BE PREMIUM TO USE THIS COMMAND.
 Hit /buy to purchase</b>");
-$botToken =  "<Bottoken>";
+$botToken =  "6189221036:AAEacjgcZUbMuUBMdDmaxgDV6ORaV7X47Lo";
 $website = "https://api.telegram.org/bot".$botToken;
 $update = file_get_contents('php://input');
 echo $update;
